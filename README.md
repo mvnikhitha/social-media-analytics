@@ -6,9 +6,9 @@ This project is a data-driven analysis and interactive dashboard built to unders
 
 ## 📁 Project Structure
 
-- `social_media_metrics.xlsx` – Raw dataset from Kaggle
-- `notebooks/Social Media Analytics.ipynb` – EDA and visualization notebook
-- `app/streamlit_app.py` – Streamlit app for interactive dashboard
+- `data` – Raw dataset from Kaggle
+- `social_media_eda.ipynb` – EDA and visualization notebook
+- `app.py` – Streamlit app for interactive dashboard
 - `requirements.txt` – List of Python dependencies
 - `README.md` – Project overview
 
@@ -16,15 +16,13 @@ This project is a data-driven analysis and interactive dashboard built to unders
 
 ## 🧾 Dataset
 
-- **Source**: [Kaggle - Sentiment Dataset (used social media metrics subset)](https://www.kaggle.com/)
+- **Source**: [Kaggle - Social Media Sentiments Analysis Dataset](https://www.kaggle.com/datasets/kashishparmar02/social-media-sentiments-analysis-dataset)
 - The dataset includes metrics such as:
   - **Likes**
-  - **Shares**
-  - **Saves**
-  - **Reach**
-  - **Impressions**
-  - **Profile Visits**
-  - **Follows**
+  - **retweets**
+  - **sentiment**
+  - **Country**
+  - **Year**
 
 ---
 
@@ -41,7 +39,7 @@ This project is a data-driven analysis and interactive dashboard built to unders
 
 ## 📊 Exploratory Data Analysis (EDA)
 
-Performed in a Jupyter Notebook:
+Performed in a ipynb:
 
 - Summary statistics of key metrics
 - Correlation matrix to uncover relationships
@@ -67,7 +65,7 @@ cd social-media-analytics
 
 # Create virtual environment
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+On Windows: venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
