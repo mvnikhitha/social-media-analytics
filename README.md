@@ -76,6 +76,4 @@ Network URL: http://192.168.29.55:8501
 ```
 ## Author 
 **M V Nikhitha**
-Link for video Presentation
-https://drive.google.com/file/d/1Ui2EkCfT4jVX8ult_Qqcu1MI43jLUCk0/view?usp=drive_link
 
